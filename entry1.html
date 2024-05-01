@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      cursor: url(ghost.gif), auto;
+      background-image: url('omori.jpg');
+    }
+
+    .sidebar {
+      height: 50%;
+      width: 250px;
+      position: fixed;
+      top: 30%;
+      left: 0;
+      background-color: rgba(0, 0, 0, 0.474);
+      padding-top: 20px;
+    }
+
+    .sidebar a {
+      display: block;
+      color: white;
+      padding: 10px;
+      text-decoration: none;
+    }
+
+    .sidebar a:hover {
+      background-color: rgba(117, 116, 173, 0.392);
+    }
+
+    .content {
+      margin-left: 250px;
+      padding: 20px;
+      cursor: url(ghost.gif), auto;
+    }
+
+    .middle-box-container {
+      width: 400px;
+      height: 500px;
+      overflow-y: auto; /* Add scrollbars when content exceeds height */
+    }
+
+    .middle-box {
+      background-color: #000000c8;
+      border: 2px solid #ff0000;
+      padding: 20px;
+    }
+
+    h1 {
+      color: white;
+      font-size: 50px;
+      font-family: 'Oswald', sans-serif; 
+    }
+
+    h2 {
+      color: #3e0000;
+    }
+
+    h4 {
+      margin-top: 0;
+    }
+
+    .bottom-container {
+      margin-top: -250px; /* Adjusted margin */
+      width: 900px;
+      height: 200px;
+      overflow-y: auto; /* Add scrollbars when content exceeds height */
+      background-color: #000000c8;
+      border: 2px solid #ff0000;
+      padding: 20px;
+    }
+
+  </style>
+</head>
+<body>
+
+<div class="sidebar">
+  <a href="OOhome.html">Home</a>
+  <a href="OOProfile.html">Profile</a>
+  <a href="OOEntries.html">Entries</a>
+  <a href="OOGallery.html">Gallery</a>
+</div>
+
+<div class="content">
+  <h1><b>Oddities Outpost</b> - <b style="font-size: smaller; font-family:sans-serif"> Cherrie's Blog</b></h1>
+  <p>It's not what it seems.</p>
+
+  <div class="middle-box-container">
+    <div class="middle-box">
+      <h2 style="color:#ff0000"> <img src="red.gif">Blog Entries</h2>
+      <ul style="color:rgb(255, 0, 0);">
+        <li><a href="entry1.html"> October 20, 2004</a></li>
+        <li><a href="entry2.html"> October 27, 2004</a></li>
+        <li><a href="entry3.html"> November 2, 2004</a></li>
+        <li><a href="entry4.html"> November 25,2004</a></li>
+        <li><a href="entry5.html"> December 5, 2004</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="bottom-container">
+    <h2 style="color:#ff0000">October 20, 2004</h2>
+    <p style="color:white;">I went in without any expectations. After doing the first bit which was research(I asked a bunch of locals) I ventured into the woods and seemingly found nothing. I heard eerie sounds which I think is just my mind playing tricks knowing that I was going in hoping for a "paranormal experience" XD. I headed home after an hour since it was late and I had school tomorrow.</p>
+  </div>
+</div>
+
+</body>
+</html>
